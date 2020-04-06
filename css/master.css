@@ -1,50 +1,132 @@
 /* CSS Style */
 
 body{
-  background-color: #499B8F;
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 15px;
   }
 
-*{
-  margin: 0%;
-  padding: 0%;
-  font-family: Avenir, sans-serif;
+#topSection {
+  background-image: url("./img/background.jpg");
 }
 
-nav{
-   margin: 0% auto;
-   padding: 0%;
-   width: 100%;
-   background-color: #45A293;
-   position: sticky;
-   top: 0%;
- }
+#informationSection {
+    width: 34%;
+    padding-left: 33%;
+    padding-right: 33%;
+    background-color: #E9EBEE;
+    /*opacity: 5%;*/
+    object-position: center;
+  }
 
-nav ul{
-  list-style-type: none;
-  border-bottom: 2px;
+#profilePicture{
+  align-items: center;
+  width: 200px;
+  border-radius: 50%;
 }
 
-nav ul li{
-  float: left;
-  width: 25%;
+#webSiteTitle {
+  margin-bottom: 5;
+  width:auto;
   text-align: center;
+  color: #55ACEE;
 }
 
-nav ul::after{
-  content: "";
-  display: table;
-  clear: both;
+#jobTitle {
+  text-align: center;
+  padding-top: 0%;
 }
 
-nav a{
-  display: black;
+#descriptionItems {
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+#shortBio {
+  text-align: center;
+  color: #333333;
+}
+
+#readMore {
+  font-size: 12;
+  font-family: serif;
+  color: #53CAFF;
+}
+
+#more{
+  display: none;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 18px;
+  text-align: center;
   text-decoration: none;
-  color: white;
-  border-bottom: 2px solid transparent;
-  padding: 10px 0px;
+  border-radius: 50%;
 }
 
-nav a:hover{
-  color: grey;
-  border-bottom: 2px solid grey;
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Twitter */
+.fa-reddit {
+  background: #FF4500;
+  color: white;
+}
+
+/* Linkedin*/
+.fa-linkedin{
+  background: #0077B5;
+  color: white;
+}
+/* Github */
+.fa-github{
+  background: #24292E;
+  color: white;
+}
+
+/* _____________________________________________________*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+ background-color: #eee;
+ color: #444;
+ cursor: pointer;
+ padding: 18px;
+ width: 100%;
+ text-align: left;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+ background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+ padding: 0 18px;
+ background-color: white;
+ display: none;
+ overflow: hidden;
 }
