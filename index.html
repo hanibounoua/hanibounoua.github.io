@@ -2,63 +2,528 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hani Bounoua</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hani Bounoua | Data Scientist / Data Mining Expert</title>
+    <meta name="description" content="Portfolio and Resume of Hani Bounoua, Data Scientist and Data Mining Expert specializing in predictive modeling, large-scale data pipelines, and telecommunications analytics.">
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/master.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   </head>
-  <!-- Body Of Web  Site -->
   <body>
-    <!-- Description Div -->
-    <div id="topSection">
-      <div id="informationSection">
-        <img id="profilePicture" src="./img/hanibounoua.jpg">
-        <h1 id = "webSiteTitle"> Hani Bounoua </h1>
-        <div id="descriptionSection">
-          <ul id="descriptionItems">
-            <li id="jobTitle">
-              <h2>Data Scientist</h2>
-            </li>
-            <li id="bioItems">
-              <p id="shortBio">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus imperdiet, nulla et dictum interdum,
-                nisi lorem egestas vitae scel<span id="dots">...</span>
-                <span id="more">erisque enim ligula venenatis dolor.
-                  Maecenas nisl est, ultrices nec congue eget,
-                  auctor vitae massa.</span> <br>
-                  <a onclick="myFunction()" id="readMore">Read more</a>
-              </p>
-            </li>
 
-            <li>
-              <a href="https://www.facebook.com/hbounoua" class="fa fa-facebook"></a>
-              <a href="https://twitter.com/hani_bounoua" class="fa fa-twitter"></a>
-              <a href="https://www.reddit.com/user/hanibounoua" class="fa fa-reddit"></a>
-              <a href="https://www.linkedin.com/in/hanibounoua/" class="fa fa-linkedin"></a>
-              <a href="https://github.com/hanibounoua" class="fa fa-github"></a>
-            </li>
-          </ul>
-        </div>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-logo">Hani Bounoua</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Key Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./resume.pdf" class="btn-nav" target="_blank"><i class="fa-solid fa-file-arrow-down"></i> Resume</a></li>
+        </ul>
       </div>
-    </div>
+    </header>
 
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="badge"><i class="fa-solid fa-award"></i> Best Employee Q1 2026 · Data Scientist Expert (Score 90.27%)</span>
+            <h1>Hi, I'm <span class="highlight">Hani Bounoua</span></h1>
+            <h2>Data Scientist / Data Mining Expert</h2>
+            <p>
+              Transforming complex datasets into actionable business intelligence across telecommunications, pharmacometrics, and academic research. Specialized in predictive modeling, big data pipelines, and interactive geospatial analytics.
+            </p>
+            <div class="hero-buttons">
+              <a href="./resume.pdf" class="btn btn-primary" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <a href="#experience" class="btn btn-outline">
+                <span>View Experience</span>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <span>Get In Touch</span>
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/hanibounoua/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:bounoua.hani@gmail.com" class="social-icon" title="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="tel:+213663479928" class="social-icon" title="Phone">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <img src="./img/hanibounoua.jpg" alt="Hani Bounoua profile photo">
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- About Section -->
+      <section id="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About Me</h2>
+            <p>Professional background and core competencies</p>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I am a Data professional with deep expertise in the <strong>telecommunications sector</strong>, <strong>academic research</strong>, and <strong>freelance pharmacometrics</strong>.
+              </p>
+              <p>
+                My background combines a rigorous mathematical and statistical foundation (Master's in Applied Statistics and Probability, Bachelor's in Algebra & Cryptography) with hands-on mastery in architecting large-scale predictive pipelines, churn detection, network capacity analytics, and automated decision-support reporting.
+              </p>
+              <p>
+                Proven ability to handle massive enterprise data environments utilizing <strong>Python</strong>, <strong>R</strong>, <strong>PySpark</strong>, <strong>Polars</strong>, and <strong>Teradata SQL</strong>, while delivering intuitive analytical tools via <strong>R Shiny</strong> and modern web apps.
+              </p>
+            </div>
+            <div class="quick-stats">
+              <div class="stat-card">
+                <h3>90.27%</h3>
+                <p>Data Scientist Certified Expert Top Score</p>
+              </div>
+              <div class="stat-card">
+                <h3>Telecom & Big Data</h3>
+                <p>Djezzy (Veon Group) Large-Scale Analytics</p>
+              </div>
+              <div class="stat-card">
+                <h3>Pharmacometrics</h3>
+                <p>Medisim SaaS Architect & Developer</p>
+              </div>
+              <div class="stat-card">
+                <h3>Applied Stats</h3>
+                <p>M.Sc. Statistics & Probability (USTHB)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <button class="accordion">Section 1</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
-    </div>
+      <!-- Skills Section -->
+      <section id="skills">
+        <div class="container">
+          <div class="section-title">
+            <h2>Technical Skills</h2>
+            <p>Technologies, frameworks, and methodologies from my professional toolkit</p>
+          </div>
+          <div class="skills-container">
+            <div class="skill-category">
+              <h3><i class="fa-solid fa-code"></i> Programming & Databases</h3>
+              <div class="skill-tags">
+                <span class="tag">Python</span>
+                <span class="tag">R</span>
+                <span class="tag">Teradata SQL</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">Java</span>
+                <span class="tag">C++</span>
+              </div>
+            </div>
 
-    <button class="accordion">Section 2</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
-    </div>
+            <div class="skill-category">
+              <h3><i class="fa-solid fa-database"></i> Data Engineering & Big Data</h3>
+              <div class="skill-tags">
+                <span class="tag">PySpark</span>
+                <span class="tag">Polars</span>
+                <span class="tag">pandas</span>
+                <span class="tag">Teradata FastExport</span>
+                <span class="tag">Teradata FastLoad</span>
+                <span class="tag">SQL Macros & ETL</span>
+              </div>
+            </div>
 
-    <button class="accordion">Section 3</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
-    </div>
-    <script src="./javaScript/index.js" type="text/javascript"></script>
+            <div class="skill-category">
+              <h3><i class="fa-solid fa-brain"></i> Machine Learning & Modeling</h3>
+              <div class="skill-tags">
+                <span class="tag">scikit-learn</span>
+                <span class="tag">tidymodels</span>
+                <span class="tag">mlr3</span>
+                <span class="tag">nlmixr2</span>
+                <span class="tag">Churn Prediction</span>
+                <span class="tag">Customer Segmentation</span>
+                <span class="tag">Revenue Forecasting</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><i class="fa-solid fa-chart-pie"></i> Web Apps, Viz & Tools</h3>
+              <div class="skill-tags">
+                <span class="tag">R Shiny</span>
+                <span class="tag">Tableau</span>
+                <span class="tag">Power BI</span>
+                <span class="tag">Leaflet</span>
+                <span class="tag">Excel</span>
+                <span class="tag">NodeJS</span>
+                <span class="tag">ExpressJS</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><i class="fa-solid fa-gears"></i> DevOps, Systems & OS</h3>
+              <div class="skill-tags">
+                <span class="tag">GitLab CI/CD</span>
+                <span class="tag">Git</span>
+                <span class="tag">Linux (Fedora, Garuda)</span>
+                <span class="tag">Windows 11</span>
+                <span class="tag">Bash</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+              <div class="skill-tags">
+                <span class="tag">Machine Learning & AI (ITComp)</span>
+                <span class="tag">Tableau 2022 Advanced</span>
+                <span class="tag">Advanced SQL Server for Data Analysis</span>
+                <span class="tag">Power BI Desktop (IT Talents)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience">
+        <div class="container">
+          <div class="section-title">
+            <h2>Professional Experience</h2>
+            <p>Chronological career history and key milestones</p>
+          </div>
+          <div class="timeline">
+            <!-- Job 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="date">February 2022 – Present</span>
+                <h3>Reporting Administrator (Data Scientist)</h3>
+                <h4>Djezzy (Veon Group) · Algiers, Algeria</h4>
+                <p>
+                  <strong>Key Achievements:</strong> Awarded Best Employee Q1 2026. Successfully passed technical and oral evaluations for the internal <strong>Data Scientist Certified Expert</strong> designation with a top score of 90.27%.
+                </p>
+                <ul style="margin: 0.75rem 0 0 1.25rem; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                  <li><strong>Predictive Modeling & Churn:</strong> Developed machine learning models to detect rotational churn, predict inactivity within the 15-day tenure segment, and forecast the lifetime value of "bundler" clients based on 3-month behavioral histories. Built forecasting models for revenue segments.</li>
+                  <li><strong>Customer Segmentation & Analysis:</strong> Automated Multiplay segmentation and conducted revenue cohort analysis based on behavioral segments. Analyzed the impact of market performance, deployment, and traffic indicators on YoY revenue by commune. Post-monetization tracking for new services.</li>
+                  <li><strong>Network Optimization & Scoring:</strong> Engineered a Regional Network Satisfaction Score (RNSS/CSS) and customer engagement scores using survey results and behavioral data. Segmented network cells by traffic flow to detect congestion and optimize boost campaigns.</li>
+                  <li><strong>Dashboards & Reporting:</strong> Created prototype commercial dashboards (Prepaid, Regional Performance, VAS, Digital Services) using R Shiny. Automated complex reporting (B2B Revenue, Inflow/Outflow YoY, Server Refill Detection, Daily 5G performance) with Teradata SQL macros.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="date">December 2021 – Present</span>
+                <h3>Freelance Data Scientist & Pharmacometrician</h3>
+                <h4>Independent Consultant · Remote</h4>
+                <ul style="margin: 0.5rem 0 0 1.25rem; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                  <li><strong>Medisim SaaS:</strong> Architected and developed a modular Software as a Service (SaaS) application for processing, analyzing, and modeling pharmacokinetic data (with or without covariates), integrating an automated reporting module.</li>
+                  <li><strong>SAA Deduplication:</strong> Created a centralized unique identifier to consolidate databases for the Société Nationale d'Assurance (SAA) utilizing fuzzy string matching on insurance policyholder characteristics.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="date">May 2020 – November 2021</span>
+                <h3>Research Support Engineer</h3>
+                <h4>CERIST · Algiers, Algeria</h4>
+                <ul style="margin: 0.5rem 0 0 1.25rem; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                  <li>Analyzed and reported on the overall performance of scientific research in Algeria leveraging data from Scopus and Web of Science databases.</li>
+                  <li>Developed an optimization solver for a heterogeneous vehicle routing problem with time windows, pickup, and delivery constraints.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Job 4 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="date">December 2019 – February 2020</span>
+                <h3>Teaching Assistant / Instructor</h3>
+                <h4>Université M'Hamed Bougara de Boumerdès (UMBB) · Boumerdès, Algeria</h4>
+                <p>
+                  Taught practical and theoretical modules in R Programming (Tidyverse) and Numerical Analysis.
+                </p>
+              </div>
+            </div>
+
+            <!-- Job 5 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="date">August 2019 – October 2019</span>
+                <h3>Forecast and Objectives Officer</h3>
+                <h4>Condor Electronics · Algeria</h4>
+                <p>
+                  Managed databases for operational reporting and developed sales forecasting models to optimize inventory.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <div class="section-title">
+            <h2>Key Projects & Solutions</h2>
+            <p>Highlights of data science and engineering solutions delivered</p>
+          </div>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-capsules"></i></div>
+                <div class="project-links">
+                  <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>Medisim SaaS Platform</h3>
+                <p>
+                  Architected and engineered a specialized SaaS platform designed for clinical and pharmaceutical researchers to process, analyze, and model pharmacokinetic data with automated reporting.
+                </p>
+                <div class="project-tech">
+                  <span>R / nlmixr2</span>
+                  <span>R Shiny</span>
+                  <span>NodeJS</span>
+                  <span>Data Modeling</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-tower-cell"></i></div>
+                <div class="project-links">
+                  <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>Telecom Churn & Customer Lifetime Value</h3>
+                <p>
+                  Production ML pipelines detecting rotational churn and predicting inactivity in the critical 15-day tenure segment, while estimating lifetime value for multiplay subscribers.
+                </p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>scikit-learn</span>
+                  <span>PySpark</span>
+                  <span>Teradata SQL</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-id-card"></i></div>
+                <div class="project-links">
+                  <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>SAA Policyholder Entity Deduplication</h3>
+                <p>
+                  High-accuracy deduplication system for the Société Nationale d'Assurance using fuzzy string matching on customer attributes to establish a centralized unique identifier.
+                </p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Fuzzy Matching</span>
+                  <span>pandas</span>
+                  <span>SQL</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-route"></i></div>
+                <div class="project-links">
+                  <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>Vehicle Routing Problem (VRP) Solver</h3>
+                <p>
+                  Developed an optimization solver at CERIST for heterogeneous vehicle fleet routing incorporating time windows, pickup, and delivery constraints.
+                </p>
+                <div class="project-tech">
+                  <span>Operations Research</span>
+                  <span>Python / C++</span>
+                  <span>Heuristics</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="project-links">
+                  <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>Regional Network Satisfaction (RNSS/CSS)</h3>
+                <p>
+                  Engineered comprehensive network satisfaction and customer engagement scores, linking survey outcomes with cell traffic and telecom KPIs to prioritize boost campaigns.
+                </p>
+                <div class="project-tech">
+                  <span>R Shiny</span>
+                  <span>Leaflet</span>
+                  <span>Teradata</span>
+                  <span>Geo-Analytics</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="project-links">
+                  <a href="https://www.github.com/hnbn313" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>Automated Big Data ETL & Reporting</h3>
+                <p>
+                  Automated mission-critical corporate reporting pipelines (B2B revenue, YoY inflow/outflow, server refill detection, 5G performance) via scalable Teradata SQL macros.
+                </p>
+                <div class="project-tech">
+                  <span>Teradata FastExport</span>
+                  <span>FastLoad</span>
+                  <span>SQL Server</span>
+                  <span>Polars</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education & Personal Section -->
+      <section id="education">
+        <div class="container">
+          <div class="section-title">
+            <h2>Education & Background</h2>
+            <p>Degrees, academic training, and languages</p>
+          </div>
+          <div class="about-grid">
+            <div>
+              <div class="timeline-card" style="margin-bottom: 1.5rem;">
+                <span class="date">2016 – 2019</span>
+                <h3>Master's in Applied Statistics and Probability</h3>
+                <h4>USTHB · Algiers, Algeria</h4>
+                <p>In-depth study of probability theory, statistical inference, stochastic processes, and mathematical modeling.</p>
+              </div>
+              <div class="timeline-card">
+                <span class="date">2012 – 2016</span>
+                <h3>Bachelor's in Algebra and Cryptography</h3>
+                <h4>USTHB · Algiers, Algeria</h4>
+                <p>Foundations in abstract algebra, number theory, discrete mathematics, and cryptography algorithms.</p>
+              </div>
+            </div>
+            <div>
+              <div class="skill-category" style="margin-bottom: 1.5rem;">
+                <h3><i class="fa-solid fa-language"></i> Languages</h3>
+                <div class="skill-tags">
+                  <span class="tag"><strong>Arabic:</strong> Native</span>
+                  <span class="tag"><strong>French:</strong> Bilingual</span>
+                  <span class="tag"><strong>English:</strong> Professional Working Proficiency</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h3><i class="fa-solid fa-person-running"></i> Interests</h3>
+                <div class="skill-tags">
+                  <span class="tag">Running & Trail Running</span>
+                  <span class="tag">Sciences & New Technologies</span>
+                  <span class="tag">Open Source AI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-download-box">
+            <h3>Get a copy of the official curriculum vitae</h3>
+            <p style="color: var(--text-muted); margin: 0.75rem 0 1.5rem;">
+              Compiled directly from source LaTeX with all career metrics, education, and credentials.
+            </p>
+            <a href="./resume.pdf" class="btn btn-primary" download target="_blank">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download Official Resume (PDF)</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container contact-container">
+          <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Let's collaborate or discuss opportunities</p>
+          </div>
+          <div class="contact-card">
+            <h3>Have a project or opportunity in mind?</h3>
+            <p>
+              Feel free to reach out directly via email, phone, or LinkedIn. I am always open to discussing data science challenges, freelance consulting, or new opportunities.
+            </p>
+            <div class="hero-buttons" style="justify-content: center;">
+              <a href="mailto:bounoua.hani@gmail.com" class="btn btn-primary">
+                <i class="fa-regular fa-envelope"></i>
+                <span>bounoua.hani@gmail.com</span>
+              </a>
+              <a href="tel:+213663479928" class="btn btn-outline">
+                <i class="fa-solid fa-phone"></i>
+                <span>+213 663 47 99 28</span>
+              </a>
+              <a href="https://www.linkedin.com/in/hanibounoua/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Hani Bounoua. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="./javaScript/index.js"></script>
   </body>
 </html>
