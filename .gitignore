@@ -5,3 +5,6 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+
+# Assistant context
+GEMINI.md
